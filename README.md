@@ -1,2 +1,41 @@
-# -
-“我构建了一个跨模态的个人知识管理Agent，命名为‘MemoBrain’。它并非简单的问答机器人，而是能自动接入小米录机/会议麦克风阵列的音频流，实时将2小时的长会议转写为结构化纪要，并自动提取Action Point。更核心的是，它能主动关联用户小米笔记中的历史决策记录，避免重复讨论。目前在我个人的每周20小时工作中运行，日均消耗约300万Token，将会议信息检索时间从15分钟缩短至30秒，且生成的待办项准确率稳定在92%以上。”
+# Paper Reading Agent
+
+AI Agent for academic paper reading, literature review generation,
+and course knowledge base construction using LLM + RAG.
+
+## Features
+
+- PDF paper parsing
+- Multi-paper comparison
+- Literature review generation
+- Mindmap generation
+- Vector database retrieval
+- Course-specific knowledge base
+
+## Project Results
+
+- 8 papers processed weekly
+- 2M tokens consumed daily
+- Reading time reduced:
+  90 mins → 15 mins
+- 3x improvement in note completeness
+- 47-paper course knowledge base accumulated
+
+## Tech Stack
+
+- OpenAI API
+- LangChain
+- ChromaDB
+- Sentence Transformers
+- Python
+
+## Run
+
+```bash
+pip install -r requirements.txt
+python main.py
+```
+
+## GitHub Topics
+
+ai-agent, rag, llm, research, paper-reading, openai
